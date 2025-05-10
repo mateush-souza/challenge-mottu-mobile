@@ -1,4 +1,4 @@
-# Nome do projeto
+# Bem vindo ao MotoConnect 👋
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/mateush-souza/challenge-mottu-mobile?style=for-the-badge)](https://github.com/mateush-souza/challenge-mottu-mobile)
 [![GitHub language count](https://img.shields.io/github/languages/count/mateush-souza/challenge-mottu-mobile?style=for-the-badge)](https://github.com/mateush-souza/challenge-mottu-mobile)
@@ -7,39 +7,52 @@
 
 > Aplicativo desenvolvido em React Native + Expo com TypeScript para o **Challenge 2025 - FIAP**, focado no controle de motos nos pátios da Mottu. O app permite o rastreamento por RFID e a gestão das manutenções realizadas pelos mecânicos.
 
-## 💻 Pré-requisitos
+## Get started
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+1. Install dependencies
 
-- Node.js (v18+)
-- Git
-- Emulador ou Dispositivo Android/IOS
-- IDE
+   ```bash
+   npm install
+   ```
 
-## 🚀 Instalando <MotoConnect>
+2. Start the app
 
-Para instalar o <MotoConnect>, siga estas etapas:
+   ```bash
+   npx expo start
+   ```
 
-Clone o projeto:
+In the output, you'll find options to open the app in a
 
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
 ```
-git clone https://github.com/mateush-souza/challenge-mottu-mobile.git
-```
 
-Instale as dependências necessárias:
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-```
-npm install
-```
-Inicie o projeto com:
+## Learn more
 
-```
-npx expo start
-```
+To learn more about developing your project with Expo, look at the following resources:
 
-## 🤝 Colaboradores
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 <table>
   <tr>
